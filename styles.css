@@ -1,11 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  width: 80%;
+  margin: auto;
 }
 
 a {
   margin-right: 10px;
   text-decoration: none;
+}
+
+img {
+  border-radius: 5px;
 }
 
 button {
@@ -23,15 +29,28 @@ button {
   align-self: center;
 }
 
-.section-one {
+#section-one {
   background-color: #1f2937;
   margin: auto;
-  width: 60%;
+  /* width: 60%; */
+}
+
+#section-two {
+  background-color: white !important;
+  margin: auto;
+  /* width: 60%; */
 }
 
 #hero-logo {
   font-size: 24px;
   color: #f9faf8;
+}
+
+#info-header {
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+  padding: 20px 0 20px 0;
 }
 
 .nav-div {
@@ -43,7 +62,11 @@ button {
 .hero-div {
   display: flex;
   justify-content: space-around;
-  margin: 50px;
+}
+
+.some-info-div {
+  display: flex;
+  justify-content: center;
 }
 
 #hero-heading {
