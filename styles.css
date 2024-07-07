@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  width: 80%;
-  margin: auto;
+  /* width: 80%;
+  margin: auto; */
 }
 
 a {
@@ -24,21 +24,39 @@ button {
   width: 150px;
 }
 
+section {
+  margin: auto;
+  width: 50%;
+}
+
 #hero-link {
-  /* justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
   align-self: center;
 }
 
 #section-one {
   background-color: #1f2937;
-  margin: auto;
+  /* margin: auto; */
   /* width: 60%; */
 }
 
 #section-two {
-  background-color: white !important;
-  margin: auto;
+  background-color: white;
+  /* margin: auto; */
   /* width: 60%; */
+}
+
+#section-three {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+#section-four {
+  background-color: #ffffff;
+  color: #ffffff;
 }
 
 #hero-logo {
@@ -46,27 +64,36 @@ button {
   color: #f9faf8;
 }
 
-#info-header {
-  font-size: 36px;
-  color: #1f2937;
-  text-align: center;
-  padding: 20px 0 20px 0;
-}
-
 .nav-div {
   display: flex;
   justify-content: space-around;
-  padding: 50px 0 20px 0;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .hero-div {
   display: flex;
   justify-content: space-around;
+  padding: 20px;
+}
+
+#info-header {
+  font-size: 36px;
+  color: #111;
+  font-weight: bolder;
+  text-align: center;
+  padding: 20px 0 20px 0;
 }
 
 .some-info-div {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding-left: 30px;
+}
+
+.info-img-div p {
+  padding: 10px;
+  color: #111;
 }
 
 #hero-heading {
@@ -79,4 +106,41 @@ button {
   font-size: 18px;
   color: #e5e7eb;
   margin-right: 10px;
+}
+
+.quote-p-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+#p-2 {
+  align-self: flex-end;
+}
+
+.action-bg {
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.action-bg button {
+  align-self: flex-end;
+  border-style: solid;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.action-div {
+  padding: 50px;
+}
+
+.footer-div {
+  background-color: #1f2937;
+  padding: 20px;
+  text-align: center;
 }
