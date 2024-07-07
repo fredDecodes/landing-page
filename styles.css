@@ -42,20 +42,20 @@ section {
 }
 
 #section-two {
-  background-color: white;
+  background-color: white !important;
   /* margin: auto; */
   /* width: 60%; */
 }
 
 #section-three {
-  background-color: #e5e7eb;
+  background-color: #e5e7eb !important;
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
 }
 
 #section-four {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   color: #ffffff;
 }
 
